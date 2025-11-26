@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Лабораторна робота №1</h1>
+        <h4>Варіант 0</h4>
+    </header>
+
+    <main>
+        <h3>Оформлений текст</h3>
+        <p>Основна <b>тригонометрична тотожність</b>:<br>
+            <i>cos</i><sup>2</sup><b>&alpha;</b> + <i>sin</i><sup>2</sup><b>&alpha;</b> = 1<br>
+            Приклад суворої нерівності:&alpha; &lt; &beta;.<br>
+            Нестрога нерівність &alpha; &le; &beta; означає, що<br>
+            або &alpha; &lt; &beta;, або &alpha; = &beta;.
+        </p>
+        <h3>Список з питаннями та варіантами відповідей</h3>
+        <ol>
+            <li>Який тег визначає найголовніший заголовок?
+                <ol type="a">
+                    <li>&lt;h6&gt;</li>
+                    <li>&lt;h1&gt;</li>
+                    <li>&lt;head&gt;</li>
+                </ol>
+            </li>
+            <li>Який тег виділяє текст жирним?
+                <ol type="a">
+                    <li>&lt;b&gt;</li>
+                    <li>&lt;head&gt;</li>
+                    <li>&lt;br&gt;</li>
+                </ol>
+            </li>
+            <li>Який тег визначає нумерований список?
+                <ol type="a">
+                    <li>&lt;sup&gt;</li>
+                    <li>&lt;head&gt;</li>
+                    <li>&lt;ol&gt;</li>
+                </ol>
+            </li>
+        </ol>
+        <br>
+
+        <table border="1">
+            <caption><b>Таблиця успішності студентів</b></caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Прізвище</th>
+                    <th colspan="7">Предмет</th>
+                </tr>
+                <tr>
+                    <th>ВР</th>
+                    <th>СПЗ</th>
+                    <th>КПпро</th>
+                    <th>КСх</th>
+                    <th>ПУ</th>
+                    <th>МодС</th>
+                    <th>АК</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Петренко</td>
+                    <td>96</td>
+                    <td>86</td>
+                    <td>78</td>
+                    <td>90</td>
+                    <td>98</td>
+                    <td>66</td>
+                    <td>61</td>
+                </tr>
+                <tr>
+                    <td>Іваненко</td>
+                    <td>79</td>
+                    <td>67</td>
+                    <td>80</td>
+                    <td>60</td>
+                    <td>87</td>
+                    <td>60</td>
+                    <td>62</td>
+                </tr>
+                <tr>
+                    <td>Сидоренко</td>
+                    <td>99</td>
+                    <td>88</td>
+                    <td>82</td>
+                    <td>76</td>
+                    <td>100</td>
+                    <td>75</td>
+                    <td>65</td>
+                </tr>
+        </table>
+        <br>
+
+        <fieldset>
+            <legend><b>Форма реєстрації</b></legend>
+            <form>
+                <label for="firstname">Ім'я:</label>
+                <br>
+                <input type="text" id="firstname" name="firstname">
+                <br><br>
+                <label for="lastname">Прізвище:</label>
+                <br>
+                <input type="text" id="lastname" name="lastname">
+                <br><br>
+                <label for="date_of_birth">Дата народження:</label>
+                <br>
+                <input type="date" id="date_of_birth" name="date_of_birth">
+                <br><br>
+                <label for="email">Електронна пошта:</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="password">Пароль:</label>
+                <br>
+                <input type="password" id="password" name="password">
+                <br><br>
+                <label for="license">Чи згодні Ви з ліценційним договором:</label>
+                <br>
+                <input type="checkbox" id="license" name="license">
+                <label for="license">Так, я прочитав та даю згоду</label><br><br>
+                <input type="submit" value="Відправити">
+            </form>
+        </fieldset>
+        <br>
+
+        <h3>Зображення-банер з посиланням</h3>
+        <a href="https://nure.ua/" target="_blank">
+            <img src="nure_building.jpg" width="500" height="310" alt="Картинка ХНУРЕ" title="Сайт ХНУРЕ">>
+        </a>
+    </main>
+</body>
+
+</html>

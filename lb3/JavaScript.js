@@ -1,4 +1,3 @@
-
 let totalStudents = 0;
 let excellentCount = 0;
 let goodCount = 0;

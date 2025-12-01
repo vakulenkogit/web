@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lb3 JS</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="JavaScript.js" defer></script>
+</head>
+
+<body>
+    <h1>Лабораторна робота №3</h1>
+    <h5><a href="https://knureigs.github.io/itech/lb/ITech1_JS/index.html" target="_blank">Варіант №5</a></h5>
+
+    <h1>Аналіз успішності студентів</h1>
+
+    <form id="studentForm">
+        <div class="row">
+            <label for="surname">Прізвище:</label>
+            <input type="text" id="surname" required>
+        </div>
+
+        <div class="row"><label>КПпро:</label><select id="mark1">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+            </select></div>
+        <div class="row"><label>ВР:</label><select id="mark2">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+            </select></div>
+        <div class="row"><label>АК:</label><select id="mark3">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+            </select></div>
+        <div class="row"><label>МодС:</label><select id="mark4">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+            </select></div>
+        <div class="row"><label>СПЗ:</label><select id="mark5">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+            </select></div>
+
+        <button type="button" id="randomBtn">Випадкові оцінки</button>
+        <button type="button" id="addBtn">Додати студента</button>
+
+    </form>
+
+    <div id="result">
+        <h2>Підсумкова інформація</h2>
+        <p>Всього студентів: <span id="total">0</span></p>
+        <p>Відмінники: <span id="excellent">0</span></p>
+        <p>Хорошисти: <span id="good">0</span></p>
+        <p>Неуспішні: <span id="bad">0</span></p>
+
+        <div class="bad-list">
+            <strong>Прізвища неуспішних:</strong>
+            <span id="badNames"></span>
+        </div>
+
+        <h3>Список студентів:</h3>
+        <div id="studentTable"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #edf9ed;
+}
+
+h1 {
+    text-align: center;
+    color: #3e6633;
+}
+
+h5 {
+    text-align: center;
+    color: #3e6633;
+}
+
+form {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#studentForm {
+    background: #ececec;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+select,
+input[type="text"] {
+    padding: 3px 5px;
+    width: 120px;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#result {
+    background: #d4e9d5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-block {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.bad-list {
+    color: #aa0000;
+    margin-top: 10px;
+}

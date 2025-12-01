@@ -1,0 +1,86 @@
+header h1 {
+    font-size: 30px;
+    color: rgb(0, 128, 0);
+    text-align: center;
+    margin: 15px;
+}
+
+header h6 {
+    font-size: 15px;
+    color: rgb(0, 128, 0);
+    text-align: center;
+    margin: 10px;
+
+}
+
+.container h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.content-search-engines h3 {
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.content-search-engines p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-indent: 30px;
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+}
+
+.content-internet #img-internet {
+    float: left;
+    padding: 0px 10px 5px 0px;
+}
+
+.contacts-box {
+    position: fixed;
+    top: 40%;
+    left: -282px;
+    width: 260px;
+    height: 110px;
+    background: #b3f2a5;
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+    transition: 0.4s ease;
+    z-index: 999;
+}
+
+.contacts-box:hover {
+    left: 0;
+}
+
+.contacts-tab {
+    position: absolute;
+    right: -36px;
+    top: -1px;
+    background: rgb(30, 255, 0);
+    border: 2px solid black;
+    border-left: none;
+    padding: 24.5px 6px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contacts-content {
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+}
